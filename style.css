@@ -136,14 +136,14 @@ main{
 .button-screenshots{
     width: 100px;
     height: 80px;
-    font-size: 50px;
+    font-size: 60px;
     border:none;
     background-color: rgba(0,0,0,0);
     transition:.4s;
     cursor: pointer;
 }
 .button-screenshots:hover{
-    font-size: 60px;
+   font-size: 40px;
 }
 
 .screenshots-content-item{
