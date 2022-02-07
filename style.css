@@ -75,9 +75,8 @@ header .content span {
 
 main{
     background-color: rgba(247, 250, 253, 0.883);
-   
-    clear:both;
-    border: 1px solid ;
+    /* coloca somente para impedir o margin collapse */
+    border: 1px solid rgba(0, 0, 0, 0);
 }
 
 
@@ -95,7 +94,7 @@ main{
 
   .main-content-text{
       width:60%;
-      /* /*padding: 30px; */
+      
       
   }
 
@@ -123,6 +122,33 @@ main{
 
   .main-content-text button:hover {
     opacity: 0.7;
+}
+/* screenshots */
+
+.main-screenshots-content{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+
+}
+.button-screenshots{
+    width: 100px;
+    height: 80px;
+    font-size: 50px;
+    border:none;
+    background-color: rgba(0,0,0,0);
+    transition:.4s;
+    cursor: pointer;
+}
+.button-screenshots:hover{
+    font-size: 60px;
+}
+
+.screenshots-content-item{
+    width: 100px;
+    height: 80px;
 }
 
 
