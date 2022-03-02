@@ -104,24 +104,25 @@ main{
 
     .main-content-text p{
         text-align: justify;
-        width:70%;
+        width:95%;
     }
 
   .main-content-text button {
-      width: 300px;
+      width: 95%;
       height:50px;
       margin-top: 10px;
       font-weight: bold;
       color:white;
       background-color:tomato ;
       border-radius: 5px;
-      transition: background-color .3s;
+      transition: all .3s;
       cursor: pointer;
       border:none;
   }
 
   .main-content-text button:hover {
     opacity: 0.7;
+
 }
 /* screenshots */
 
@@ -144,6 +145,7 @@ main{
 }
 .button-screenshots:hover{
    font-size: 60px;
+   background-color: rgba(0,0,0,.1);
 }
 
 .screenshots-content-item{
@@ -171,7 +173,45 @@ main{
     background-color: rgb(254, 255, 255);
 }
 
+
+
 .atributes-section-item h3{
     text-align: center;
 }
 
+/* depositions section */
+
+.depositions-section{
+    margin: 50px auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width:95%;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    
+}
+
+.depositions-section-item{
+    max-width: 33%;
+    margin:52px 0;
+    padding:8px;
+    display: flex;
+    transition:all .3s;
+    border-radius: 3px;
+    
+}
+
+.depositions-section-item:hover{
+
+        background-color: aqua;
+    
+}
+
+
+.depositions-section-item img {
+    max-width:100px;
+    max-height:100px;
+    margin-right:15px;
+    border-radius:50%;
+
+}
