@@ -127,7 +127,7 @@ main{
 /* screenshots */
 .main-screenshots-section {
     margin-top: 50px;
-    background-color: red;
+    background-color: tomato;
 }
 
 .main-screenshots-content{
@@ -171,16 +171,30 @@ main{
     border: 1px solid rgba(0, 0, 0, 0.1);
     margin:2px;
     padding:8px;
-    border-radius: 2px;
-    box-shadow: 0px -1px 5px rgba(0, 0, 0, .2);
     height:120px;
     background-color: rgb(254, 255, 255);
+    border-radius: 5px;
+    box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
+    padding: 30px;
+    margin-top: 20px;
+    transition: all 0.3s ease-out;
+    display: flex;
+
 }
 
+.atributes-section-item:hover{
+    transform: translateY(-5px);
+    cursor: pointer;
+    
+}
 
 
 .atributes-section-item h3{
     text-align: center;
+}
+.atributes-section-item p{
+    text-align: justify;
+    margin-left: 10px;
 }
 
 /* DEPOSITIONS SECTIONS */
@@ -196,27 +210,32 @@ main{
 }
 
 .depositions-section-item{
-    max-width: 33%;
+    max-width: 30%;
     margin:52px 0;
-    padding:8px;
     display: flex;
-    transition:all .3s;
-    border-radius: 3px;
+    align-items: center;
+    transition:all .3s ease-out;
+    border-radius: 5px;
+    box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
+    padding: 30px;
+    margin-left: 15px;
+
     
 }
 
 .depositions-section-item:hover{
-
-        background-color: aqua;
+        transform: translateY(10px);
+        background-color: rgb(224, 246, 246);
     
 }
 
 
 .depositions-section-item img {
-    max-width:100px;
-    max-height:100px;
+    width:100px;
+    height:100px;
     margin-right:15px;
     border-radius:50%;
+    border: 1px solid tomato;
 
 }
 
