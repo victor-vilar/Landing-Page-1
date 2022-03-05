@@ -85,7 +85,7 @@ main{
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
-    align-items: flex-start;
+    align-items: center;
     width:90%;
     margin:50px auto;
     padding:1px;
@@ -108,7 +108,7 @@ main{
     }
 
   .main-content-text button {
-      width: 95%;
+      width: 50%;
       height:50px;
       margin-top: 10px;
       font-weight: bold;
@@ -125,6 +125,10 @@ main{
 
 }
 /* screenshots */
+.main-screenshots-section {
+    margin-top: 50px;
+    background-color: red;
+}
 
 .main-screenshots-content{
     display:flex;
