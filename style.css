@@ -24,6 +24,7 @@ p {
 
 .full-content {
     background:no-repeat url(./imagens/background3.png);
+    background-color: #750918;
 }
 
 /*------CABECALHO-------*/
@@ -105,7 +106,7 @@ main{
     width:90%;
     margin:50px auto;
     padding:1px;
-    height:80vh;
+    height:60vh;
     
 }
 
@@ -127,7 +128,7 @@ main{
 
     .main-content-text p{
         text-align: justify;
-        width:95%;
+        width:100%;
         transition: all .5s ease-out;
         font-size: 1.3em;
     }
@@ -190,13 +191,88 @@ main{
 
 /* --------------------------------- */
 
+/* INFORMATION */
+.information-section{
+    border-top: 1px;
+    margin-top: 150px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+}
+
+
+.information-item{
+    max-width:25%;
+}
+.information-item h2{
+    margin-top: 20px;
+    font-size: 1.6em;
+    color:#750918;
+}
+
+
+
+
+
+
+
+/* NOSSA HISTORIA */
+.our-history-section{
+    width:90%;
+    margin:200px auto;
+    padding:1px;
+    
+}
+
+.history-content-item{
+    display: flex;
+    justify-content: space-around;
+    
+    
+
+}
+
+.our-history-section h1{
+    font-size: 2.9rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color:white;
+}
+.images-history{
+    display: flex;
+    flex-direction: column;
+}
+
+.images-history img {
+    margin-bottom: 5px;
+    max-width: 500px;
+}
+.images-history{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.text-history{
+    margin-left: 5px;
+    color:white;
+    
+}
+
+.text-history p{
+    font-size: 1.3em;
+}
+
+
+
 
 /* screenshots */
-.main-screenshots-section {
+.store-screenshots-section {
     background-color: tomato;
 }
 
-.main-screenshots-content{
+.store-screenshots-content{
     display:flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -218,7 +294,7 @@ main{
    background-color: rgba(0,0,0,.1);
 }
 
-.screenshots-content-item{
+.store-content-item{
     width: 100px;
     height: 80px;
 }
