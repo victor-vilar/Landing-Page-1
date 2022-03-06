@@ -12,22 +12,25 @@
 }
 
 .full-content {
-    
+    background:no-repeat url(./imagens/background3.png);
 }
 
 /*------CABECALHO-------*/
 header{
     width: 100%;
-    height:50px;
-    background-color: tomato;
+    height:16vh;
+    
 
 }
-
+.header-logo img {
+    max-width: 180px;
+    max-height: 180px;
+    margin-left: 100px;
+}
 header .content {
     padding: 10px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
     align-items: center;
 }
 
@@ -42,10 +45,11 @@ header .content span {
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
+    margin-left: 100px;
 }
 
 .social-media-list-item {
-    margin:5px;
+    margin:15px;
 }
 .social-media-list-item a { 
     color:white;
@@ -74,9 +78,10 @@ header .content span {
 /*------COMEÇO DO MAIN-----------*/
 
 main{
-    background-color: rgba(247, 250, 253, 0.883);
+    
     /* coloca somente para impedir o margin collapse */
     border: 1px solid rgba(0, 0, 0, 0);
+    
 }
 
 
@@ -85,15 +90,21 @@ main{
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
-    align-items: center;
+    align-items: flex-start;
     width:90%;
     margin:50px auto;
     padding:1px;
+    height:80vh;
+    
 }
 
 
   .main-content-text{
       width:60%;
+      color:white;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
       
       
   }
@@ -105,28 +116,53 @@ main{
     .main-content-text p{
         text-align: justify;
         width:95%;
+        transition: all .5s ease-out;
     }
 
-  .main-content-text button {
-      width: 50%;
-      height:50px;
-      margin-top: 10px;
-      font-weight: bold;
-      color:white;
-      background-color:tomato ;
-      border-radius: 5px;
-      transition: all .3s;
-      cursor: pointer;
-      border:none;
-  }
 
+  .main-content-text img {
+    width:40%;
+
+}
   .main-content-text button:hover {
     opacity: 0.7;
 
 }
+
+.main-form-singup{
+    background-color: #C81615;
+    color:white;
+    padding:20px;
+    border-radius:40px;
+    max-width:500px;
+    width:100%;
+    box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
+}
+
+.main-form-singup input[type="text"]{
+    width: 100%;
+    margin-top: 10px;
+}
+
+.main-form-singup input[type="email"]{
+    width: 100%;
+    margin-top: 10px;
+}
+.main-form-singup button{
+    width: 100%;
+    height:50px;
+    
+}
+
+.main-form-singup span{
+    font-size: .6em;
+}
+
+
+
+
 /* screenshots */
 .main-screenshots-section {
-    margin-top: 50px;
     background-color: tomato;
 }
 
