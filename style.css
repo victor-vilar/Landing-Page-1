@@ -11,6 +11,10 @@
 
 }
 
+p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
 .full-content {
     background:no-repeat url(./imagens/background3.png);
 }
@@ -23,8 +27,8 @@ header{
 
 }
 .header-logo img {
-    max-width: 180px;
-    max-height: 180px;
+    max-width: 250px;
+    max-height: 250px;
     margin-left: 100px;
 }
 header .content {
@@ -117,6 +121,12 @@ main{
         text-align: justify;
         width:95%;
         transition: all .5s ease-out;
+        font-size: 1.3em;
+    }
+
+    .main-content-text p span{
+        font-weight: bold;
+        font-size: 1.3em;
     }
 
 
@@ -129,6 +139,8 @@ main{
 
 }
 
+/* FORMULARIO DE CADASTRO */
+
 .main-form-singup{
     background-color: #C81615;
     color:white;
@@ -137,6 +149,9 @@ main{
     max-width:500px;
     width:100%;
     box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
+}
+
+.main-form-singup h2{
 }
 
 .main-form-singup input[type="text"]{
@@ -158,7 +173,7 @@ main{
     font-size: .6em;
 }
 
-
+/* --------------------------------- */
 
 
 /* screenshots */
