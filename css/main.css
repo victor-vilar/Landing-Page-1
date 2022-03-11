@@ -1,0 +1,98 @@
+/*------COMEÇO DO MAIN-----------*/
+
+main{
+    
+    /* coloca somente para impedir o margin collapse */
+    border: 1px solid rgba(0, 0, 0, 0);
+    
+}
+
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width:100%;
+    margin:50px auto;
+    padding:1px;
+    
+}
+
+
+  .main-content-text{
+      color:white;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding:10px;
+ 
+  }
+
+  .main-content-text h1{
+        font-size: 2.9rem;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .main-content-text p{
+        text-align: justify;
+        width:100%;
+        transition: all .5s ease-out;
+        font-size: 1.3em;
+    }
+
+    .main-content-text p span{
+        font-weight: bold;
+        font-size: 1.3em;
+    }
+
+
+  .main-content-text img {
+    width:40%;
+
+}
+  .main-content-text button:hover {
+    opacity: 0.7;
+
+}
+
+/* FORMULARIO DE CADASTRO */
+
+.main-form-singup{
+    background-color: #750918;
+    color:white;
+    padding:20px;
+    max-width:500px;
+    height: auto;
+    box-shadow: 7px 7px 2px 0px rgba(50, 50, 50, 0.22);
+}
+
+.main-form-singup h2{
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.main-form-singup label{
+    margin-top: 10px;
+    display: inline-block;
+}
+
+.form-component{
+    width: 100%;
+    margin-top: 2px;
+    border-radius: 2px;
+    border:none;
+    height: 30px;
+}
+
+.main-form-singup button{
+    width: 100%;
+    height:50px;
+    margin-top: 10px;
+    
+}
+
+.main-form-singup span{
+    font-size: .6em;
+}
+
+/* --------------------------------- */
