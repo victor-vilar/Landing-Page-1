@@ -35,15 +35,16 @@ header{
 
 }
 .header-logo img {
-    max-width: 250px;
-    max-height: 250px;
+    max-width: 30%;
+    max-height: 30%;
     margin-left: 100px;
 }
 header .content {
     padding: 10px;
     display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
-    align-items: center;
+    justify-content: center;
 }
 
 header .content span {
@@ -57,7 +58,6 @@ header .content span {
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    margin-left: 100px;
 }
 
 .social-media-list-item {
@@ -99,26 +99,22 @@ main{
 
 .main-content {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: flex-start;
-    width:90%;
+    width:100%;
     margin:50px auto;
     padding:1px;
-    height:60vh;
     
 }
 
 
   .main-content-text{
-      width:60%;
       color:white;
       display: flex;
       flex-direction: column;
       align-items: center;
-      
-      
+      padding:10px;
+ 
   }
 
   .main-content-text h1{
@@ -154,7 +150,6 @@ main{
     background-color: #750918;
     color:white;
     padding:20px;
-    border-radius:40px;
     max-width:500px;
     height: auto;
     box-shadow: 7px 7px 2px 0px rgba(50, 50, 50, 0.22);
@@ -194,9 +189,10 @@ main{
 /* INFORMATION */
 .information-section{
     border-top: 1px;
-    margin-top: 150px;
+    margin-top: 10px;
     display: flex;
     flex-wrap: wrap;
+    flex-direction: column;
     justify-content: space-around;
     align-items: center;
     background-color: white;
@@ -204,32 +200,28 @@ main{
 
 
 .information-item{
-    max-width:25%;
+    max-width:100%
 }
 .information-item h2{
     margin-top: 20px;
     font-size: 1.6em;
     color:#750918;
+    padding: 15px;
+    text-align: justify;
 }
-
-
-
-
-
 
 
 /* NOSSA HISTORIA */
 .our-history-section{
-    width:90%;
-    margin:200px auto;
-    padding:1px;
+    
+margin-top: 20px;
     
 }
 
 .history-content-item{
     display: flex;
     justify-content: space-around;
-    
+    flex-direction: column;
     
 
 }
@@ -246,12 +238,11 @@ main{
 
 .images-history img {
     margin-bottom: 5px;
-    max-width: 500px;
+    width: 100vw;
 }
 .images-history{
     display: flex;
     flex-direction: column;
-    width: 50%;
 }
 
 .text-history{
@@ -262,6 +253,8 @@ main{
 
 .text-history p{
     font-size: 1.3em;
+    padding:10px;
+    text-align: justify;
 }
 
 
